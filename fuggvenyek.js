@@ -10,9 +10,10 @@ export function elagazas() {
       console.log("A szám páratlan");
     }
   }
-}
 var szam = "12a";
 console.log("A szám változó típusa: " + typeof szam);
+}
+
 export function ciklusok() {
   for (let index = 0; index < 10; index++) {
     console.log(`${index}. Az élet szép`);
